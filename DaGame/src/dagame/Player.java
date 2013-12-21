@@ -4,9 +4,9 @@ import java.awt.event.KeyEvent;
 
 public class Player extends Character
 {
-	public Player(int x, int y, int width, int heigth)
+	public Player(int x, int y, int width, int heigth, Paint draw)
 	{
-		super(x, y,width,heigth);
+		super(x, y,width,heigth,draw);
 	}
 
 	private boolean pressingW;
